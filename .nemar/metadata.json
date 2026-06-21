@@ -3,7 +3,7 @@
   "pipeline_stage": "validated",
   "title": "HD-EEGtask(Dataset 2)",
   "description": "This high-density EEG dataset comprises recordings from 20 healthy right-handed volunteers (10 females, 10 males, mean age 23 years) collected between 2014 and 2017 during four experimental conditions: resting state, visual naming, auditory naming, and working memory tasks. The dataset contains 256-channel EEG data acquired at 1000 Hz sampling frequency and is designed to investigate dynamic functional brain network reorganization across different cognitive states.",
-  "methods_description": "HD-EEG recordings were acquired using a 256-electrode EGI system at 1000 Hz sampling frequency with impedances maintained below 5 kΩ. Participants completed four conditions: (1) resting state with eyes open for 10 minutes, (2) visual naming of 80 pictures with 40 scrambled distractors, (3) auditory naming of 80 sounds, and (4) working memory task with 80 pictures (40 novel, 40 repeated) requiring button press responses.",
+  "methods_description": "HD-EEG recordings were acquired using a 256-electrode EGI system at 1000 Hz sampling frequency with impedances maintained below 5 kΩ. Four experimental conditions were performed: (1) resting state with eyes open for 10 minutes, (2) visual naming of 80 pictures with 40 scrambled distractors, (3) auditory naming of 80 sounds, and (4) working memory task with 80 pictures (40 repeated from naming task) requiring button press responses to indicate prior exposure.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -22,19 +22,25 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
+      "term": "EEG"
+    },
+    {
       "term": "resting state"
     },
     {
-      "term": "naming task"
+      "term": "cognitive tasks"
+    },
+    {
+      "term": "visual naming"
+    },
+    {
+      "term": "auditory naming"
     },
     {
       "term": "working memory"
     },
     {
       "term": "functional brain networks"
-    },
-    {
-      "term": "high-density EEG"
     }
   ],
   "related_identifiers": [
