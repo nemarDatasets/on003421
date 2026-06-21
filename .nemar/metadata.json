@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on003421",
-  "source": "openneuro",
-  "source_id": "ds003421",
+  "pipeline_stage": "validated",
   "title": "HD-EEGtask(Dataset 2)",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Ahmad Mheich": {},
     "Olivier Dufor": {},
@@ -13,22 +13,108 @@
     "Fabrice Wendling": {},
     "Mahmoud Hassan": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003421.v1.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003421",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003421",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1038/s41598-017-02868-w",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
+    },
+    {
+      "identifier": "10.1016/j.cortex.2015.09.012",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
+    },
+    {
+      "identifier": "10.1088/1741-2552/aad5dd",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.2",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
   ],
-  "acknowledgements": "The dataset 2 has received a French government support granted to the CominLabs excellence laboratory and managed by the National Research Agency in the Investing for the Future program under reference ANR-10-LABX-07-01. We also thank the European Research Council for the ERC-2011-ADG - Grant Agreement N 290901 ? Acronym NEUCOD. Dataset 1 and dataset 2 were also supported by the Rennes University Hospital (dataset 1 COREC Project named conneXion, 2012-14; dataset 2: COREC Project named BrainGraph, 2015-17). The study was also funded by the National Council for Scientific Research (CNRS) in Lebanon. Authors would also like to thank the Lebanese Association for Scientific Research (LASER) for its support and the Institute of Clinical Neuroscience of Rennes (project named EEGCog)."
+  "formats": [
+    ".bmp",
+    ".db",
+    ".ebs2",
+    ".eeg",
+    ".es2",
+    ".gitattributes",
+    ".json",
+    ".m",
+    ".md",
+    ".raw",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".wav",
+    ".wndpos",
+    ".xlsx"
+  ],
+  "description": "This high-density EEG dataset comprises recordings from 20 healthy right-handed volunteers (10 females, 10 males, mean age 23 years) collected between 2014 and 2017 during four experimental conditions: resting state, visual naming, auditory naming, and working memory tasks. The dataset includes 256-channel EEG recordings acquired at 1000 Hz sampling frequency and is designed to investigate dynamic functional brain network reorganization across different cognitive states.",
+  "methods_description": "HD-EEG recordings were acquired using a 256-electrode EGI system at 1000 Hz sampling frequency with impedances maintained below 5 kΩ. Participants completed four conditions: (1) resting state with eyes open for 10 minutes, (2) visual naming of 80 pictures with 40 scrambled distractors, (3) auditory naming of 80 sounds, and (4) working memory task with 80 pictures (40 novel, 40 repeated) requiring button press responses.",
+  "keywords": [
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "cognitive tasks"
+    },
+    {
+      "term": "visual naming"
+    },
+    {
+      "term": "auditory naming"
+    },
+    {
+      "term": "working memory"
+    },
+    {
+      "term": "functional brain networks"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "National Research Agency",
+      "award_number": "ANR-10-LABX-07-01",
+      "award_title": "CominLabs excellence laboratory"
+    },
+    {
+      "funder_name": "European Research Council",
+      "award_number": "290901",
+      "award_title": "NEUCOD"
+    },
+    {
+      "funder_name": "Rennes University Hospital",
+      "award_number": "2014-A01461-46"
+    },
+    {
+      "funder_name": "National Council for Scientific Research"
+    }
+  ],
+  "source_hash": "7c62e4125190660b34f32a65fd76219c9d4d837d8322f11fc154ab3b4d6bba94"
 }
