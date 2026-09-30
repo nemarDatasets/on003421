@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "HD-EEGtask(Dataset 2)",
-  "description": "This high-density EEG dataset comprises recordings from 20 healthy right-handed volunteers (10 females, 10 males, mean age 23 years) collected between 2014 and 2017 during four experimental conditions: resting state, visual naming, auditory naming, and working memory tasks. The dataset contains 256-channel EEG data acquired at 1000 Hz sampling frequency and is designed to investigate dynamic functional brain network reorganization across different cognitive states.",
-  "methods_description": "HD-EEG recordings were acquired using a 256-electrode EGI system at 1000 Hz sampling frequency with impedances maintained below 5 kΩ. Four experimental conditions were performed: (1) resting state with eyes open for 10 minutes, (2) visual naming of 80 pictures with 40 scrambled distractors, (3) auditory naming of 80 sounds, and (4) working memory task with 80 pictures (40 repeated from naming task) requiring button press responses to indicate prior exposure.",
+  "description": "High-density EEG (256 electrodes) recorded in 20 right-handed healthy volunteers in Rennes, France, across four conditions: eyes-open resting state, visual naming, auditory naming, and a working memory (picture recognition) task. The dataset supports studies of functional brain connectivity and network dynamics during cognitive tasks.",
+  "methods_description": "Data were recorded with an EGI HD-EEG system (256 electrodes) at a 1000 Hz sampling rate, with impedances kept below 5 kOhm. Each participant completed a 10-minute eyes-open resting state, naming of 80 pictures (with 40 scrambled pictures as no-response trials), naming of 80 sounds, and a memory task in which 80 pictures were shown, 40 of them previously seen, and participants pressed a button to indicate whether they had seen each one.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,21 +17,16 @@
   },
   "keywords": [
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "Electroencephalography"
     },
     {
-      "term": "EEG"
+      "term": "high-density EEG"
     },
     {
       "term": "resting state"
     },
     {
-      "term": "cognitive tasks"
-    },
-    {
-      "term": "visual naming"
+      "term": "picture naming"
     },
     {
       "term": "auditory naming"
@@ -40,17 +35,12 @@
       "term": "working memory"
     },
     {
-      "term": "functional brain networks"
+      "term": "functional connectivity"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on003421",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003421",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -73,6 +63,11 @@
       "identifier": "10.18112/openneuro.ds003421.v1.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003421",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -96,6 +91,9 @@
     {
       "funder_name": "Rennes University Hospital",
       "award_title": "COREC Project BrainGraph"
+    },
+    {
+      "funder_name": "National Council for Scientific Research (CNRS) Lebanon"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -103,7 +101,7 @@
     "eeg"
   ],
   "sizes": [
-    "82.4 GB (575 files)"
+    "76.77 GB (575 files)"
   ],
   "formats": [
     ".bmp",
